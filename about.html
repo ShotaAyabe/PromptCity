@@ -20,84 +20,103 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="javascript:void(0);">Bootstrap 勉強会</a>
+          <a class="navbar-brand" href="index.html">PromptCity</a>
         </div>
         <div id="gnavi" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">表紙</a></li>
-            <li><a href="list.html">目次</a></li>
-            <li class="active"><a href="javascript:void(0);">Bootstrapとは</a></li>
-            <li><a href="good-bad.html">メリット・デメリット</a></li>
-            <li><a href="example01.html">具体例①</a></li>
-            <li><a href="example02.html">具体例②</a></li>
-            <li><a href="example03.html">具体例③</a></li>
-            <li><a href="finish.html">最後に</a></li>
-            <li><a href="question.html">質疑応答</a></li>
+            <li><a href="index.html">このサイトについて</a></li>
+            <li><a href="list.html">研究・授業</a></li>
+            <li class="active"><a href="javascript:void(0);">プログラミング</a></li>
+            <li><a href="good-bad.html">言語学習</a></li>
+            <li><a href="example01.html">キャリア・就活</a></li>
+            <li><a href="example02.html">お金</a></li>
+            <li><a href="example03.html">人間関係</a></li>
+            <li><a href="finish.html">恋愛</a></li>
+            <li><a href="question.html">自己啓発</a></li>
           </ul>
         </div>
       </nav>
     </header>
-
-
     <div class="container">
 
       <div class="jumbotron">
-        <h2>Bootstrapとは</h2>
-        <p>CSSフレームワークの一種</p>
+        <h2>このページではプログラミングに役立つプロンプトを紹介します</h2>
+        <p>プロダクトを1つ作ってみましょう</p>
       </div>
-      
+
       <div class="block">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><h3>そもそもフレームワークって？</h3></a>
-        <div class="panel panel-default">
-          <div id="collapse1" class="panel-collapse collapse">
-            <div class="panel-body">
-              <i>『プログラミングにおいて、一般的な機能をもつ共通コードをユーザーが選択的に上書きしたり特化させたりすることで、<br>ある特定の機能をもたせようとする抽象概念のことである。（Wikipediaより）』</i>
-            </div>
-            <div class="text-center">
-              <h4>=> 辞書的な意味ではいまいちわからない</h4>
-            </div>
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><h3>ウェブ開発</h3></a>
+        <div id="collapse1" class="panel panel-default panel-collapse collapse">
+          <div class="text-center">
+            <h4>新しいウェブサイトのデザインアイディア</h4>
+            <h4>React.jsでのコンポーネントの最適な構造</h4>
+            <h4>CSSのアニメーションを使ったユーザーエクスペリエンスの向上方法</h4>
+          </div>
+        </div>
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><h3>データサイエンス</h3></a>
+        <div id="collapse2" class="panel panel-default panel-collapse collapse">
+          <div class="text-center">
+            <h4>データセットの探索的データ解析 (EDA) に使えるPythonコード</h4>
+            <h4>機械学習モデルのハイパーパラメータの調整方法</h4>
+            <h4>データ視覚化のための最新のライブラリとツール</h4>
           </div>
         </div>
       </div>
-
-      <div class="block clearfix">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><h3>例えるなら…</h3></a>
-        <div class="panel panel-default">
-          <div id="collapse2" class="panel-collapse collapse">
-            <div class="panel-body text-center">
-              <h2>カレーのルー</h2>
-            </div>
-            <div class="text-center">
-              <div class="block">
-                <img src="images/item01.jpg" class="img-responsive" style="margin:0 auto 20px;">
-                <div class="panel panel-default">
-                  <div class="panel-heading"><h4>スパイスを使用してやらなければいけないことが、ルーを使えば簡単にできる</h4></div>
-                  <div class="panel-body"><h4>それぞれのルーに特徴がある　=> やりたい事に合わせてフレームワークが選べる</h4></div>
-                  <div class="panel-footer"><h4>あまり知識がなくても美味しいものを作ることができる</h4></div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><h3>モバイルアプリ開発</h3></a>
+      <div id="collapse3" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>新しいモバイルアプリのアイディア</h4>
+          <h4>FlutterやReact Nativeを使用したクロスプラットフォーム開発のベストプラクティス</h4>
+          <h4>iOSやAndroidの最新のアップデートに対応する方法</h4>
         </div>
       </div>
-
-      <div class="block clearfix">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><h3>CSSフレームワークの例</h3></a>
-        <div class="panel panel-default">
-          <div id="collapse3" class="panel-collapse collapse">
-            <div class="text-center">
-              <div class="block">
-                <div class="panel panel-default" style="margin:20px 10px;">
-                  <div class="panel-heading"><h4><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></h4></div>
-                  <div class="panel-body"><h4><a href="http://foundation.zurb.com/" target="_blank">Foundation</a></h4></div>
-                  <div class="panel-footer"><h4><a href="http://purecss.io/" target="_blank">Pure</a></h4></div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><h3>セキュリティ</h3></a>
+      <div id="collapse4" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>Webアプリのセキュリティベストプラクティス</h4>
+          <h4>ペネトレーションテストの手法とツール</h4>
+          <h4>新たなセキュリティ脅威への対策方法</h4>
         </div>
       </div>
-
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><h3>ゲーム開発</h3></a>
+      <div id="collapse5" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>新しいゲームのストーリーラインアイディア</h4>
+          <h4>UnityやUnrealEngineを使用したゲームデザインのヒント</h4>
+          <h4>マルチプレイヤーゲームの開発におけるチャレンジと解決策</h4>
+        </div>
+      </div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><h3>クラウドコンピューティング</h3></a>
+      <div id="collapse6" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>DockerやKubernetesを使用したアプリケーションのデプロイ戦略</h4>
+          <h4>クラウドプロバイダーの最新機能の活用方法</h4>
+          <h4>サーバーレスアーキテクチャの設計と実装</h4>
+        </div>
+      </div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse7"><h3>試験対策</h3></a>
+      <div id="collapse7" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>試験勉強の進め方や有効な学習戦略についてのアドバイスをお願いします。</h4>
+          <h4>特定の科目「」において効果的な記憶術や復習法について教えてください。</h4>
+        </div>
+      </div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse8"><h3>インフラストラクチャ管理</h3></a>
+      <div id="collapse8" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>AnsibleやTerraformを使用したインフラストラクチャの自動化手法</h4>
+          <h4>仮想化とコンテナ化の違いと、どちらを選ぶべきかについて</h4>
+          <h4>サーバーレスアーキテクチャの実装と利点</h4>
+        </div>
+      </div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse9"><h3>自然言語処理 (NLP)</h3></a>
+      <div id="collapse9" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>Pythonを使用した自然言語処理の基本的な手法</h4>
+          <h4>BERTやGPTなどのトランスフォーマーモデルの活用方法</h4>
+          <h4>チャットボットの開発におけるデザインと最適化</h4>
+        </div>
+      </div>
     </div>
 
     <footer class="footer">

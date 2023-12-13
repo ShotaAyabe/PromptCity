@@ -52,146 +52,83 @@
     </header>
     <div class="container">
       <div class="jumbotron">
-        <h2>具体例③</h2>
-        <p>Bootstrapで用意されているjsを利用する</p>
+        <h2>このページでは人間関係の形成に役立つプロンプトを紹介します</h2>
+        <p>対人コミュニケーションに対する理解を深めましょう</p>
       </div>
-
-      <div role="tabpanel">
-
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#gallery" aria-controls="gallery" role="tab" data-toggle="tab">ギャラリー</a></li>
-          <li role="presentation"><a href="#modal" aria-controls="modal" role="tab" data-toggle="tab">モーダル</a></li>
-          <li role="presentation"><a href="#popover" aria-controls="popover" role="tab" data-toggle="tab">ポップオーバー</a></li>
-          <li role="presentation"><a href="#accordion" aria-controls="accordion" role="tab" data-toggle="tab">アコーディオン</a></li>
-        </ul>
-
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="gallery">
-            <div id="carousel_sample" class="carousel slide" data-ride="carousel" style="width:60%;margin:20px auto;">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel_sample" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel_sample" data-slide-to="1" class=""></li>
-                <li data-target="#carousel_sample" data-slide-to="2" class=""></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img src="images/fox01.JPG">
-                  <div class="carousel-caption">
-                    <h3>プラチナキツネ</h3>
-                    とても美人さんで可愛いです。
-                  </div>
-                </div>
-                <div class="item">
-                  <img src="images/fox02.JPG">
-                  <div class="carousel-caption">
-                    <h3>濡れそぼったキツネ</h3>
-                    この日は雨が降っていました。
-                  </div>
-                </div>
-                <div class="item">
-                  <img src="images/fox03.JPG">
-                  <div class="carousel-caption">
-                    <h3>2匹のキツネ</h3>
-                    ところでこの写真は全部キツネ村で撮影したものなのですが大変に可愛くて未だに余韻が抜け切れておりません関東圏では一切見ることのできない放し飼いのキツネという環境は思い出すたびに胸が震えますしキツネ村に戻りたいという気持ちに押しつぶされそうになりますそうつまり私はもう一度キツネ村に行きたいのですキツネ村こそ今の私を形作るすべてなのです
-                  </div>
-                </div>
-              </div>
-              <a class="left carousel-control" href="#carousel_sample" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a class="right carousel-control" href="#carousel_sample" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
-            </div>
-          </div>
-
-          <div role="tabpanel" class="tab-pane" id="modal">
-            <div class="block" style="margin: 30px 0">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">クリックするとモーダルウィンドウが開きます。</button>
-            </div>
-            <div class="modal fade" id="myModal">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">モーダルボックスです</h4>
-                  </div>
-                  <div class="modal-body">これがデフォルトで作成できるんですよ！<br>すごい！！</div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
-                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div role="tabpanel" class="tab-pane" id="popover">
-            <div class="block" style="margin: 30px 0">
-              <button type="button" id="sample" class="btn btn-lg btn-default" data-toggle="popover" title="サンプル用のボタン①" data-content="クリックすると文章が表示されるよ！こんな感じだよ！">
-                ボタン①
-              </button>
-              <button type="button" id="sample2" class="btn btn-lg btn-success" data-toggle="popover" title="サンプル用のボタン②" data-content="マウスオーバーで文章が表示されるよ！こんな感じだよ！">
-                ボタン②
-              </button>
-            </div>
-          </div>
-
-          <div role="tabpanel" class="tab-pane" id="accordion">
-            <div class="panel-group" id="accordion">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                      タイトル #1
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <h3>アコーディオンの中身</h3>
-                    <ul>
-                      <li>リスト１</li>
-                      <li>リスト２</li>
-                      <li>リスト３</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                      タイトル #2
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                      タイトル #3
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div class="block">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><h3>人間関係の構築</h3></a>
+        <div id="collapse1" class="panel panel-default panel-collapse collapse">
+          <div class="text-center">
+            <h4>新しい人とのコミュニケーションを始める際のアイスブレイクのアイディア</h4>
+            <h4>職場や学校での効果的なネットワーキング戦略</h4>
+            <h4>異なる文化やバックグラウンドを持つ人とのコミュニケーションの積極的な促進法</h4>
           </div>
         </div>
-
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><h3>対人コミュニケーションスキル</h3></a>
+        <div id="collapse2" class="panel panel-default panel-collapse collapse">
+          <div class="text-center">
+            <h4>効果的なフィードバックの提供と受け入れに関する方法</h4>
+            <h4>非言語コミュニケーションのポイントと相手の気持ちを読む方法</h4>
+            <h4>困難な会話や論争における冷静なコミュニケーションの戦略</h4>
+          </div>
+        </div>
       </div>
-
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><h3>チームワークと協力</h3></a>
+      <div id="collapse3" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>グループでのリーダーシップと協力の促進に関するアプローチ</h4>
+          <h4>異なる個性とスキルセットを持つ人たちとの協力の最適な方法</h4>
+          <h4>チームの目標達成のためのコミュニケーションプランの構築方法</h4>
+        </div>
+      </div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><h3>対人関係の修復と改善</h3></a>
+      <div id="collapse4" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>誤解や衝突が生じた際の効果的な修復戦略</h4>
+          <h4>信頼の構築と維持に関する実践的なアプローチ</h4>
+          <h4>適切なコミュニケーションで不安や疑念を払拭する方法</h4>
+        </div>
+      </div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><h3>職場における人間関係</h3></a>
+      <div id="collapse5" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>上司とのコミュニケーションにおける成功の秘訣</h4>
+          <h4>チームメンバーや同僚との円滑な業務連携のためのツールとテクニック</h4>
+          <h4>リモートワーク環境での効果的なバーチャルコミュニケーションの構築法</h4>
+        </div>
+      </div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><h3>対人コミュニケーションにおけるリーダーシップ</h3></a>
+      <div id="collapse6" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>リーダーシップスキルの向上とチームメンバーへの影響力の拡大</h4>
+          <h4>難しい意見や決断を伝えるためのリーダーシップコミュニケーションの技術</h4>
+          <h4>エンパシーと共感を活かしたリーダーシップの発展戦略</h4>
+        </div>
+      </div>             
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse7"><h3>職場のストレス管理とチームビルディング</h3></a>
+      <div id="collapse7" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>ストレスの原因を理解し、職場での健康な人間関係を維持する方法</h4>
+          <h4>効果的なチームビルディングイベントの企画と実施の方法</h4>
+          <h4>チームのメンバーとの信頼を築くためのストーリーテリングの力</h4>
+        </div>
+      </div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse8"><h3>ソーシャルメディアでのコミュニケーション</h3></a>
+      <div id="collapse8" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>LinkedInやTwitterを使ったプロフェッショナルなコネクションの築き方</h4>
+          <h4>ソーシャルメディアでのプライベートとプロフェッショナルなバランスの取り方</h4>
+          <h4>オンラインでの存在感の構築と職場におけるソーシャルメディアの有効活用</h4>
+        </div>
+      </div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse9"><h3>カルチャーショックと対処法</h3></a>
+      <div id="collapse9" class="panel panel-default panel-collapse collapse">
+        <div class="text-center">
+          <h4>異なる文化出身者との関係構築におけるカルチャーショックの理解と克服方法</h4>
+          <h4>国際的なプロジェクトでの異文化コミュニケーションのベストプラクティス</h4>
+          <h4>異なる価値観や信念に基づく対話を通じた共感と理解の促進法</h4>
+        </div>
+      </div>
     </div>
     <footer class="footer">
       <div class="container">
